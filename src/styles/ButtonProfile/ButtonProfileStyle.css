@@ -1,0 +1,37 @@
+.wrapperButtonProfile{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85%;
+    width: 120px;
+    /* background-color: orange; */
+}
+
+.buttonConnexion{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    /* 127,188,210 */
+    /* background: linear-gradient(to right, rgba(253,255,0, .8) 35%, rgba(127,188,210, .8) 69%); */
+    background: linear-gradient(to right, rgba(253,255,0, .8) 35%, rgba(52, 73, 194, .8) 69%);
+}
+.mySpace{
+    font-size: 10px;
+}
+
+/* height: 35px;
+width: 100px;
+color: white;
+font-family: monospace;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+border-radius: 10px;
+background: linear-gradient(to right, rgba(18, 17, 17, .8) 35%, rgba(52, 73, 194, .8) 69%); */

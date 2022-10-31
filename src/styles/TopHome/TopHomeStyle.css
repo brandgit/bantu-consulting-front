@@ -1,0 +1,45 @@
+.wrapperTopHome {
+    height: 100vh;
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+
+.ourValuesContainer {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* background-color: blue; */
+}
+
+.ourValuesContainer div {
+    flex-direction: column;
+    color: white;
+    /* background-color: olive; */
+    font-weight: 100;
+}
+
+.ourValuesContainer div {
+    font-size: xx-large;
+}
+
+.videoBgTopHome {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 700px) {
+    .ourValuesContainer div {
+        font-size: larger;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .ourValuesContainer div {
+        font-size: large;
+    }
+}

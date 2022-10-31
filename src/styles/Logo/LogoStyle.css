@@ -1,0 +1,11 @@
+.wrapperLogoHeader{
+    height: 85%;
+    width: 120px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+.logoSvg{
+    width: 80%;
+    height: 95%;
+}

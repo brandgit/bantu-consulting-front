@@ -1,0 +1,11 @@
+.wrapperNavigationConnexion{
+    width: 200px;
+    height: 100px;
+background-color: brown;
+    z-index: 2;
+    position: fixed;
+    right: 0;
+    margin-right: 5%;
+    margin-top: 75px;
+
+}

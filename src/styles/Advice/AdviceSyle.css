@@ -1,0 +1,6 @@
+.wrapperAdvice{
+    width: 100%;
+    /* height: 500px; */
+    display: flex;
+    flex-direction: column;
+}

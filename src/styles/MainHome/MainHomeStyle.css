@@ -1,0 +1,137 @@
+.wrapperMainHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: orange; */
+    
+}
+.blockMainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7FBCD2 ;
+    /* background-color: #000 ; */
+    width: 100%;
+    
+}
+.mainContainer{
+    width: 90%;
+    /* background-color: brown; */
+}
+.weContainer{
+    display: flex;
+}
+.descriptionWeContainer{
+    margin-top: 100px;
+    /* padding: 50px; */
+    width:65%;
+    color: #fff;
+    font-size: xx-large;
+    /* background-color: blue; */
+}
+.descriptionWeContainer h1{
+    color: #FDFF00;
+}
+.citationContainer{
+    margin-top: 50px;
+}
+.containerWeIcon1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    width: 100%;
+    height: 50%;
+    color: aliceblue;
+}
+.iconWeContainer{
+    margin-bottom: 150px;
+    margin-top: 30px;
+}
+.containerWeIcon1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60%;
+    font-weight: bold;
+    color: white;
+}
+.containerWeIcon2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+.containerWeIcon2 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60%;
+    color: white;
+    font-weight: bold;
+}
+.iconWeContainer img{
+    width: 250px;
+}
+@media screen and (max-width: 925px){
+    .descriptionWeContainer{
+        font-size:x-large;
+    }
+}
+@media screen and (max-width: 780px){
+    .weContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .descriptionWeContainer{
+        font-size:xx-large;
+        width:100%;
+    }
+    .iconWeContainer img{
+        width: 350px;
+    }
+    .iconWeContainer{
+        margin-bottom: 70px;
+        margin-top: 30px;
+    }
+    .containerWeIcon1 div{
+        height:200px;
+    }
+    .containerWeIcon2 div{
+        height:200px;
+    }
+}
+@media screen and (max-width: 550px){
+    .descriptionWeContainer{
+        font-size:x-large;
+    }
+    .iconWeContainer img{
+        width: 250px;
+    }
+    .containerWeIcon1 div{
+        height:150px;
+    }
+    .containerWeIcon2 div{
+        height:150px;
+    }
+}
+@media screen and (max-width: 450px){
+    .descriptionWeContainer{
+        font-size:larger;
+    }
+    .iconWeContainer img{
+        width: 150px;
+    }
+    .containerWeIcon1 div{
+        font-size: 13px;
+    }
+    .containerWeIcon2 div{
+        font-size: 13px;
+    }
+}
+

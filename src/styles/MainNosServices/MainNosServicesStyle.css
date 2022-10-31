@@ -1,0 +1,449 @@
+.wrapperMainNosServices{
+    background-color: #7FBCD2 ;
+}
+.notreSavoirFaire {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: black;
+}
+
+.wrapperItems{
+    margin-bottom: 60px;
+}
+
+.notreSavoirFaire h1 {
+    color: rgba(253,255,0, .8);
+    margin: 5%;
+    padding-top: 50px;
+}
+
+.notreSavoirFaire h3 {
+    font-size: 17px;
+    color: rgb(151, 150, 150);
+}
+
+.nosServicesMain {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+    background-color: black;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    /* background-color: burlywood; */
+
+}
+
+.serviceMain {
+    width: 100%;
+    height: 77px;
+    display: flex;
+    align-items: center;
+}
+
+.serviceMain1 {
+    width: 100%;
+    height: 77px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logoImeServiceMain {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nameItemServiceMain1 {
+    height: 50px;
+    width: 75%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.nameItemServiceMain2 {
+    height: 50px;
+    width: 75%;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+
+.logoImeServiceMain img {
+    height: 100%;
+    width: 100%;
+}
+
+.logoServiceMain {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconeServiceMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 40%;
+    background: linear-gradient(to right, rgba(253,255,0, .8) 35%, rgba(52, 73, 194, .8) 69%);
+  
+
+}
+
+
+.nameDetailItemServiceMain{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.enSavoirPlus span{
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+.enSavoirPlus{
+    text-decoration: none;
+    width: 100%;
+     font-size: 10px;
+     margin-bottom: 30px;
+     display: flex;
+     justify-content:center;
+ }
+.iconeServiceMain img {
+    width: 70%;
+    height: 70%;
+}
+
+.blockServiceMain {
+    width: 90%;
+}
+
+.buttonContactezNous {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 5%;
+    width: 100%;
+}
+.wrapperText{
+    width: 90%;
+    text-align: center;
+}
+.wrapperButtonContactezNous{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 7%;
+}
+
+.btnContactezNous  {
+    text-decoration: none;
+   
+}
+.buttonContactezNous p {
+    height: 35px;
+    width: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5%;
+    font-size: 12px;
+    text-decoration: none;
+    background: linear-gradient(to right, rgba(18, 17, 17, .8) 35%, rgba(52, 73, 194, .8) 69%);
+   
+}
+
+.detailsServiceMain{
+    /* background-color: rgb(184, 186, 192);; */
+}
+
+.detailsTopServiceMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+   
+}
+.detailsTopServiceMain h2{
+    width: 85%;
+    margin: 5%;
+    color: rgba(253,255,0, .8);
+}
+.blockDetailsServiceMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.detailsServiceMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.logoDetailImeServiceMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logoDetailImeServiceMain img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.detailsServiceMain h3{
+    height: 35px;
+    width: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5%;
+    background-color: red;
+    color: white;
+    
+}
+
+/* .nameDetailItemServiceMain{
+    background-color: yellow;
+} */
+.nameDetailItemServiceMain h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: rgba(253,255,0, .8);
+    
+}
+.nameDetailItemServiceMain p{
+    margin: 5%;
+    text-align: center;
+}
+
+@media (min-width: 710px){
+    .nameDetailItemServiceMain h1{
+        font-size: 35px;
+    }
+    .nameDetailItemServiceMain p{
+        font-size: 20px;
+    }
+
+    .logoDetailImeServiceMain img{
+        height: 400px;
+        width: 500px;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 910px) {
+
+    .nosServicesMain {
+        width: 100%;
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoServiceMain {
+        width: 30%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iconeServiceMain {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+        width: 250px;
+        border-radius: 40%;
+
+    }
+
+    .serviceMain {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+    }
+
+    .serviceMain1 {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .blockServiceMain {
+        width: 30%;
+    }
+
+    .logoDetailImeServiceMain img{
+        height: 300px;
+        width: 300px;
+        border-radius: 10px;
+    }
+
+    .logoDetailImeServiceMain {
+        display: flex;
+       justify-content: cneter;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+    }
+    .wrapperText{
+        font-size: 20px;
+    }
+
+    .wrapperItems{
+        display: flex;
+        width: 90%;
+    }
+    .logoDetailImeServiceMain img{
+        height: 400px;
+        width: 400px;
+        border-radius: 10px;
+    }
+
+    .nameDetailItemServiceMain h1{
+        margin-top: 5%;
+        margin-bottom: 0%;
+        font-size: 40px;
+        color: rgba(52, 73, 194, .8);
+        
+    }
+    .nameDetailItemServiceMain p{
+        width: 100%;
+        margin-right: 0%;
+        text-align: end;
+        
+    }
+    .nameDetailItemServiceMain {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 90%;
+    }
+
+    .detailsServiceMain{
+        margin-bottom: 3%;
+    }
+
+    .detailsServiceMain h3{
+        height: 35px;
+        width: 150px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 10px;
+        margin: 2%;
+        margin-bottom: 4%;
+        color: white;
+    }
+
+    .wrapperButtonContactezNous{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 3%;
+    }
+
+    .nameDetailItemServiceMain{
+        display: flex;
+        flex-direction: column;
+       align-items: flex-end;
+    }
+
+    .enSavoirPlus{
+         justify-content:flex-end;
+     }
+
+}
+
+@media (min-width: 1010px) {
+    .notreSavoirFaire {
+        height: 15%;
+    }
+
+    .notreSavoirFaire h1 {
+        font-size: 40px;
+    }
+
+    .notreSavoirFaire h3 {
+        font-size: 20px;
+    }
+
+    .logoImeServiceMain {
+        height: 80px;
+        width: 80px;
+    }
+
+    .nameItemServiceMain1 {
+        font-size: 20px;
+    }
+
+    .nameItemServiceMain2 {
+        font-size: 20px;
+    }
+
+    .iconeServiceMain {
+        height: 350px;
+        width: 350px;
+    }
+
+    .logoServiceMain {
+        height: 400px;
+    }
+    .enSavoirPlusP{
+        text-decoration: none;
+         font-size: 10px;
+     }
+
+}
+

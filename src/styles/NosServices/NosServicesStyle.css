@@ -1,0 +1,161 @@
+.wrapperNosServices {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000;
+}
+.nosServicesTitle {
+    width: 90%;
+    margin-top: 70px;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FDFF00;
+}
+
+.nosServicesBio{
+    width: 90%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: gray;
+}
+
+.wrapperListeDesServices {
+    width: 90%;
+    padding-bottom: 70px;
+
+}
+
+.eachService-Item {
+    height: 400px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .7);
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+.serviceIcon {
+    height: 80px;
+    width: 80px;
+    background-color: rgba(52, 73, 194, .8);
+    background: linear-gradient(to right, rgba(253,255,0, .8) 35%, rgba(52, 73, 194, .8) 69%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.serviceIcon img{
+    width: 100%;
+}
+.serviceTitle {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: .7rem; */
+    color: rgb(52, 73, 194);
+}
+.serviceText {
+    height: 50%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: .9rem; */
+    color: #fff;
+    text-align: center;
+}
+.serviceNavig {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+    font-weight: 550;
+}
+.service-Item {
+    text-decoration: none;
+}
+@media (min-width: 910px) {
+    .nosServicesTitle {
+        font-size: x-large;
+    }
+    .nosServicesBio{
+        font-size: x-large;
+    }
+    .wrapperListeDesServices {
+        height: 55%;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .listeDesServicesItems {
+        height: 80%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .eachService-Item {
+        height: 400px;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+
+    }
+}
+
+@media (min-width: 1010px) {
+    .nosServicesTitle {
+        font-size: xx-large;
+    }
+    .nosServicesBio{
+        font-size: xx-large;
+    }
+    .wrapperListeDesServices {
+        height: 55%;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .listeDesServicesItems {
+        height: 80%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .eachService-Item {
+        height: 500px;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+
+    }
+} 
