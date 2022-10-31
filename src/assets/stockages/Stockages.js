@@ -97,14 +97,14 @@ export const nosConseilsItems2 = [
     name: "Optimisation fiscale",
     image: require("../imagesApp/vectorFiscale.jpg"),
     icon: require("../iconsApp/iconeFicale.png"),
-    screen: "optimisationFiscale",
+    screen: "/optimisationFiscale",
   },
   {
     id: "1",
     name: "Gestion clientèle",
     image: require("../imagesApp/vectorClientele.jpg"),
     icon: require("../iconsApp/iconeClientele.png"),
-    screen: "gestionClientele",
+    screen: "/gestionClientele",
   },
 ];
 

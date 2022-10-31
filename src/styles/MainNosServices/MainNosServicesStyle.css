@@ -1,6 +1,7 @@
-.wrapperMainNosServices{
-    background-color: #7FBCD2 ;
+.wrapperMainNosServices {
+    background-color: #7FBCD2;
 }
+
 .notreSavoirFaire {
     height: 10%;
     display: flex;
@@ -10,12 +11,12 @@
     background-color: black;
 }
 
-.wrapperItems{
+.wrapperItems {
     margin-bottom: 60px;
 }
 
 .notreSavoirFaire h1 {
-    color: rgba(253,255,0, .8);
+    color: rgba(253, 255, 0, .8);
     margin: 5%;
     padding-top: 50px;
 }
@@ -99,18 +100,19 @@
     height: 150px;
     width: 150px;
     border-radius: 40%;
-    background: linear-gradient(to right, rgba(253,255,0, .8) 35%, rgba(52, 73, 194, .8) 69%);
-  
+    background: linear-gradient(to right, rgba(253, 255, 0, .8) 35%, rgba(52, 73, 194, .8) 69%);
+
 
 }
 
 
-.nameDetailItemServiceMain{
+.nameDetailItemServiceMain {
     display: flex;
     flex-direction: column;
-   align-items: center;
+    align-items: center;
 }
-.enSavoirPlus span{
+
+.enSavoirPlus span {
     margin-top: 20px;
     height: 30px;
     width: 100px;
@@ -124,14 +126,16 @@
     background-color: red;
     text-decoration: none;
 }
-.enSavoirPlus{
+
+.enSavoirPlus {
     text-decoration: none;
     width: 100%;
-     font-size: 10px;
-     margin-bottom: 30px;
-     display: flex;
-     justify-content:center;
- }
+    font-size: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
 .iconeServiceMain img {
     width: 70%;
     height: 70%;
@@ -149,11 +153,13 @@
     height: 5%;
     width: 100%;
 }
-.wrapperText{
+
+.wrapperText {
     width: 90%;
     text-align: center;
 }
-.wrapperButtonContactezNous{
+
+.wrapperButtonContactezNous {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,10 +167,11 @@
     margin: 7%;
 }
 
-.btnContactezNous  {
+.btnContactezNous {
     text-decoration: none;
-   
+
 }
+
 .buttonContactezNous p {
     height: 35px;
     width: 150px;
@@ -178,35 +185,37 @@
     font-size: 12px;
     text-decoration: none;
     background: linear-gradient(to right, rgba(18, 17, 17, .8) 35%, rgba(52, 73, 194, .8) 69%);
-   
+
 }
 
-.detailsServiceMain{
+.detailsServiceMain {
     /* background-color: rgb(184, 186, 192);; */
 }
 
-.detailsTopServiceMain{
+.detailsTopServiceMain {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-family: monospace;
     font-size: 15px;
-   
+
 }
-.detailsTopServiceMain h2{
+
+.detailsTopServiceMain h2 {
     width: 85%;
     margin: 5%;
-    color: rgba(253,255,0, .8);
+    color: rgba(253, 255, 0, .8);
 }
-.blockDetailsServiceMain{
+
+.blockDetailsServiceMain {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.detailsServiceMain{
+.detailsServiceMain {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -222,12 +231,13 @@
     flex-direction: column;
 }
 
-.logoDetailImeServiceMain img{
+.logoDetailImeServiceMain img {
     height: 300px;
     width: 300px;
     border-radius: 10px;
 }
-.detailsServiceMain h3{
+
+.detailsServiceMain h3 {
     height: 35px;
     width: 150px;
     color: white;
@@ -239,35 +249,37 @@
     margin: 5%;
     background-color: red;
     color: white;
-    
+
 }
 
 /* .nameDetailItemServiceMain{
     background-color: yellow;
 } */
-.nameDetailItemServiceMain h1{
+.nameDetailItemServiceMain h1 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 5%;
     margin-bottom: 5%;
-    color: rgba(253,255,0, .8);
-    
+    color: rgba(253, 255, 0, .8);
+
 }
-.nameDetailItemServiceMain p{
+
+.nameDetailItemServiceMain p {
     margin: 5%;
     text-align: center;
 }
 
-@media (min-width: 710px){
-    .nameDetailItemServiceMain h1{
+@media (min-width: 710px) {
+    .nameDetailItemServiceMain h1 {
         font-size: 35px;
     }
-    .nameDetailItemServiceMain p{
+
+    .nameDetailItemServiceMain p {
         font-size: 20px;
     }
 
-    .logoDetailImeServiceMain img{
+    .logoDetailImeServiceMain img {
         height: 400px;
         width: 500px;
         border-radius: 10px;
@@ -321,7 +333,7 @@
         width: 30%;
     }
 
-    .logoDetailImeServiceMain img{
+    .logoDetailImeServiceMain img {
         height: 300px;
         width: 300px;
         border-radius: 10px;
@@ -329,38 +341,42 @@
 
     .logoDetailImeServiceMain {
         display: flex;
-       justify-content: cneter;
+        justify-content: cneter;
         align-items: center;
         flex-direction: row;
         width: 100%;
     }
-    .wrapperText{
+
+    .wrapperText {
         font-size: 20px;
     }
 
-    .wrapperItems{
+    .wrapperItems {
         display: flex;
         width: 90%;
     }
-    .logoDetailImeServiceMain img{
+
+    .logoDetailImeServiceMain img {
         height: 400px;
         width: 400px;
         border-radius: 10px;
     }
 
-    .nameDetailItemServiceMain h1{
+    .nameDetailItemServiceMain h1 {
         margin-top: 5%;
         margin-bottom: 0%;
         font-size: 40px;
         color: rgba(52, 73, 194, .8);
-        
+
     }
-    .nameDetailItemServiceMain p{
+
+    .nameDetailItemServiceMain p {
         width: 100%;
         margin-right: 0%;
         text-align: end;
-        
+
     }
+
     .nameDetailItemServiceMain {
         display: flex;
         flex-direction: column;
@@ -368,11 +384,11 @@
         width: 90%;
     }
 
-    .detailsServiceMain{
+    .detailsServiceMain {
         margin-bottom: 3%;
     }
 
-    .detailsServiceMain h3{
+    .detailsServiceMain h3 {
         height: 35px;
         width: 150px;
         color: white;
@@ -386,7 +402,7 @@
         color: white;
     }
 
-    .wrapperButtonContactezNous{
+    .wrapperButtonContactezNous {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -394,15 +410,15 @@
         margin: 3%;
     }
 
-    .nameDetailItemServiceMain{
+    .nameDetailItemServiceMain {
         display: flex;
         flex-direction: column;
-       align-items: flex-end;
+        align-items: flex-end;
     }
 
-    .enSavoirPlus{
-         justify-content:flex-end;
-     }
+    .enSavoirPlus {
+        justify-content: flex-end;
+    }
 
 }
 
@@ -440,10 +456,10 @@
     .logoServiceMain {
         height: 400px;
     }
-    .enSavoirPlusP{
+
+    .enSavoirPlusP {
         text-decoration: none;
-         font-size: 10px;
-     }
+        font-size: 10px;
+    }
 
 }
-

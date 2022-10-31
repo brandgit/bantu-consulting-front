@@ -9,7 +9,7 @@ export const InformatiqueScreen = () => {
     return (
         <div>
             <TopNosServiceComponent imageTop={imageTop} 
-           nameScreen="Nos conseils RH"/>
+           nameScreen="Nos conseils Informatique"/>
             <ResustsComponent resultsItems={resultsItems}/>
            <FooterComponent/>
         </div>

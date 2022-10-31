@@ -8,7 +8,7 @@ export const ResustsComponent = ({resultsItems}) => {
                     <div className='blockResults'>
                         <img src={item.image} alt="" />
                         <h2>intitulé</h2>
-                        <div>
+                        <div className='descriptResult'>
                             <p>{item.descript}</p>
                         </div>
                     </div>

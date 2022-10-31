@@ -5,6 +5,9 @@ import { HomeScreen } from "./screens/Home/HomeScreen";
 import { ProjectManagementScreen } from "./screens/ProjectManagement/ProjectManagementScreen";
 import { RhScreen } from "./screens/RH/RhScreen";
 import { TrainingScreen } from "./screens/Training/TrainingScreen";
+import { GestionClienteleScreen } from "./screens/GestionClientele/GestionClienteleScreen";
+import { OprimisationFiscaleScreen } from "./screens/OprimisationFiscale/OprimisationFiscaleScreen";
+import { InformatiqueScreen } from "./screens/Informatique/InformatiqueScreen";
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
             element={<ProjectManagementScreen />}
           />
           <Route path="rh" element={<RhScreen />} />
+          <Route path="informatique" element={<InformatiqueScreen />} />
+          <Route path="optimisationFiscale" element={<OprimisationFiscaleScreen />} />
+          <Route path="gestionClientele" element={<GestionClienteleScreen />} />
         </Routes>
       </BrowserRouter>
     </div>

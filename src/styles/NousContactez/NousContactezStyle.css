@@ -1,0 +1,54 @@
+.wrapperNousContactez{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 270px;
+    width: 100%;
+    background-color: white;
+}
+
+.nousContactezContainer{
+    height: 200px;
+    width: 90%;
+    /* background-color: burlywood; */
+}
+.wrapperTextServicePresentation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50%;
+    width: 100%;
+    /* background-color: goldenrod; */
+    text-align: center;
+}
+.wrapperBtnContactezNousSP{
+    display: flex;
+    justify-content: center;
+    height:50%;
+    width: 100%;
+    /* background-color: green; */
+}
+.btnContactezNousSPLink {
+    text-decoration: none;
+
+}
+
+.btnContactezNousSP p {
+    height: 35px;
+    width: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 12px;
+    background: linear-gradient(to right, rgba(18, 17, 17, .8) 35%, rgba(52, 73, 194, .8) 69%);
+
+}
+
+.contentServicePresentation{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}

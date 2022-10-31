@@ -1,0 +1,159 @@
+.wrapperServicePresentation {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+.descriptionServicePresentation{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+
+}
+.wrapperVideoServicePresentation{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.videoServicePresentationContainer{
+    width: 300px;
+    height: 200px;
+}
+.titleServicePresentation h1{
+    font-size: 20px;
+}
+.bioServicePresentation {
+    height: 35%;
+    width: 90%;
+}
+.textServicePresentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8rem;
+    width: 100%;
+    height: 70%;
+}
+
+
+
+
+@media (min-width: 410px) {}
+
+@media (min-width: 610px) {
+    .wrapperTopNosServices {
+        height: 500px;
+    }
+
+    .textTopNosServices {
+        font-size: 0.9rem;
+    }
+
+    .vertorNosServices img {
+        width: 60%;
+    }
+
+    .titleTopNosServices {
+        height: 25%;
+        font-size: 1.2rem;
+        align-items: flex-end;
+        /* background-color: aqua; */
+    }
+}
+
+@media (min-width: 810px) {
+
+    .descriptionTopNosServices {
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bioTopNosServices {
+        height: 80%;
+        width: 50%;
+    }
+
+    .bioTopNosServices p {
+        height: 60%;
+        width: 100%;
+    }
+
+    .buttonTopServices {
+        height: 40%;
+        width: 100%;
+    }
+
+    .buttonTopServices p {
+        height: 40px;
+        width: 120px;
+    }
+
+    .vertorNosServices {
+        height: 80%;
+        width: 40%;
+    }
+
+    .vertorNosServices img {
+        width: 90%;
+        height: 80%;
+    }
+
+    .textTopNosServices {
+        font-size: 1rem;
+    }
+
+    .titleTopNosServices {
+        height: 30%;
+        font-size: 1.7rem;
+        align-items: flex-end;
+        /* background-color: aqua; */
+    }
+
+    .descriptionTopNosServices {
+        height: 70%;
+    }
+}
+
+@media (min-width: 1010px) {
+
+    .wrapperTopNosServices {
+        height: 600px;
+    }
+
+    .vertorNosServices img {
+        width: 90%;
+        height: 80%;
+        border-radius: 15px;
+    }
+
+    .textTopNosServices {
+        font-size: 1.5rem;
+    }
+
+    .titleTopNosServices {
+        height: 30%;
+        font-size: 1.7rem;
+        align-items: flex-end;
+        /* background-color: aqua; */
+    }
+
+    .descriptionTopNosServices {
+        height: 70%;
+    }
+}

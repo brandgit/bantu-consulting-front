@@ -39,9 +39,6 @@
     height: 20%;
     /* background-color: red;*/
 }
-.blockResults p{
-    /* background-color: red; */
-}
 
 .blockResults div{
     text-align: center;
@@ -76,7 +73,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        width: 100%;
+        width: 31%;
         height: 100%;
         /* background-color: aquamarine; */
     }
@@ -84,5 +81,9 @@
         width: 210px;
         height: 210px;
         border-radius: 15px;
+    }
+    .descriptResult{
+       width: 20px;
+       /* background-color: red; */
     }
 }
