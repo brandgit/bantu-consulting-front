@@ -6,7 +6,7 @@ const video = require('../../../assets/videosApp/videoPresentation.mp4')
 export const ReactVideoPlayer = () => {
     return (
         <Video  loop>
-            <source src={video} type='video/webm'/>
+            <source src={video} controls="true" preload="yes" type='video/mp4'/>
         </Video>
     );
 };
