@@ -12,7 +12,7 @@ export const GestionClienteleScreen = () => {
     return (
         <div>
             <TopNosServiceComponent imageTop={imageTop} 
-           nameScreen="Nos conseils en Gestion de Clientèle"/>
+           nameScreen="Nos conseils en Gestion de Clientèle" bg="imageBgTopNosServices-no"/>
            <ServicePresentation/>
             <ResustsComponent resultsItems={resultsItems}/>
             <NousContactez/>

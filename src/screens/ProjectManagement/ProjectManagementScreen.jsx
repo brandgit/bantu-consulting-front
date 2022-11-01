@@ -9,7 +9,7 @@ const imageTop = require('../../assets/imagesApp/PilotagesDeProjets.jpg')
 export const ProjectManagementScreen = () => {
     return (
         <div className='wrapperProjectManagementScreen'>
-            <TopNosServiceComponent nameScreen = "Nos pilotages de projet" imageTop={imageTop}/>
+            <TopNosServiceComponent nameScreen = "Nos pilotages de projet" imageTop={imageTop} bg="imageBgTopNosServices"/>
             <MainNosServicesComponent iconService={iconService} nosServicesItems1={nosPilotageDeProjetsItems1} nosServicesItems2={nosPilotageDeProjetsItems2} service="conseils"/>
             <FooterComponent/>
         </div>

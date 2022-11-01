@@ -9,7 +9,7 @@ const iconService = require("../../assets/iconsApp/conseil.png")
 export const AdviceScreen = () => {
     return (
         <div className='wrapperAdvice'>
-           <TopNosServiceComponent nameScreen = "Nos conseils" imageTop={imageTop}/>
+           <TopNosServiceComponent nameScreen = "Nos conseils" imageTop={imageTop} bg="imageBgTopNosServices"/>
            <MainNosServicesComponent iconService={iconService} nosServicesItems1={nosConseilsItems1} nosServicesItems2={nosConseilsItems2} service="conseils"/>
            <FooterComponent/>
         </div>

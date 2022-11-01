@@ -1,4 +1,4 @@
-export const resultsItems =[
+export const resultsItems = [
   {
     id: "0",
     title: "Conseils",
@@ -17,8 +17,7 @@ export const resultsItems =[
     image: require("../imagesApp/imageProgression.jpg"),
     descript: "Petit descriptif de reulta d'une souscription a ce service",
   },
-
-]
+];
 
 // NOS SERVICES ITEMS
 export const nosServicesItems = [
@@ -116,14 +115,14 @@ export const nosPilotageDeProjetsItems1 = [
     name: "Immobilier",
     image: require("../imagesApp/vectorImmobilier.jpg"),
     icon: require("../iconsApp/iconeImmobilier.png"),
-    screen: "immobilier",
+    screen: "/Immobilier",
   },
   {
     id: "1",
     name: "Business",
     image: require("../imagesApp/vectorBusiness.jpg"),
     icon: require("../iconsApp/iconeBusiness.png"),
-    screen: "business",
+    screen: "/Business",
   },
 ];
 export const nosPilotageDeProjetsItems2 = [
@@ -132,14 +131,14 @@ export const nosPilotageDeProjetsItems2 = [
     name: "Retraite",
     image: require("../imagesApp/vectorRetraite.jpg"),
     icon: require("../iconsApp/iconeClientele.png"),
-    screen: "retraite",
+    screen: "/Retraite",
   },
   {
     id: "1",
     name: "Complément de revenu",
     image: require("../imagesApp/vectorRevenue.jpg"),
     icon: require("../iconsApp/iconeClientele.png"),
-    screen: "complementDeRevenu",
+    screen: "/ComplémentsDeRevenus",
   },
 ];
 
@@ -150,7 +149,7 @@ export const nosFormationsItems1 = [
     name: "Manager et leader",
     image: require("../imagesApp/vectorFormation.jpg"),
     icon: require("../iconsApp/iconeManagement.png"),
-    screen: "/ManagerEtLeaderScreen",
+    screen: "/ManagerEtLeader",
   },
 ];
 
@@ -160,7 +159,7 @@ export const nosFormationsItems2 = [
     name: "Intervensions ",
     image: require("../imagesApp/vectorSpecialiste.jpg"),
     icon: require("../iconsApp/iconeIntervensions.png"),
-    screen: "/IntervensionsScreen",
+    screen: "/Intervention",
   },
 ];
 
@@ -171,14 +170,14 @@ export const nosCoachingItems1 = [
     name: "Gestion financière",
     image: require("../imagesApp/vectorPriorites.jpg"),
     icon: require("../iconsApp/iconeFicale.png"),
-    screen: "gestionFinanciere",
+    screen: "/GestionFinanciere",
   },
   {
     id: "1",
     name: "Gestion des priorités",
     image: require("../imagesApp/vectorPatrimoine.jpg"),
     icon: require("../iconsApp/iconePriorite.png"),
-    screen: "gestionDesProprietes",
+    screen: "/GestionDesPriorites",
   },
 ];
 export const nosCoachingItems2 = [
@@ -187,7 +186,7 @@ export const nosCoachingItems2 = [
     name: "Développement personnel",
     image: require("../imagesApp/vectorProjet.jpg"),
     icon: require("../iconsApp/iconeDeveloppementPersonnelle.png"),
-    screen: "developpementPersonnel",
+    screen: "/DeveloppementPersonnel",
   },
 ];
 

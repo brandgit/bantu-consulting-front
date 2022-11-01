@@ -3,12 +3,12 @@ import { HeaderComponent } from "./Header/HeaderComponent";
 const bio = "Partagez vous l’idée que l’on puisse investir en afrique  en toute séreinité,sans craindre de perdre de l’argent?"
 
 
-export const TopNosServiceComponent = ({nameScreen, imageTop}) => {
+export const TopNosServiceComponent = ({nameScreen, imageTop, bg}) => {
 
     return (
         <div className='wrapperTopNosServiceComponent'>
               <HeaderComponent />
-                <div className="imageBgTopNosServices">
+                <div className={bg}>
                           <div className="blurTopNosService">
                                   <div className="titleTopNosServices">
                                             <h1>{nameScreen}</h1>

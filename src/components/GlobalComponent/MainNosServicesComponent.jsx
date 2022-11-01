@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 
 const MainNosServicesComponent = ({iconService,nosServicesItems1,nosServicesItems2, service}) => {
@@ -98,11 +98,11 @@ const MainNosServicesComponent = ({iconService,nosServicesItems1,nosServicesItem
                <div className="wrapperText">
                     <p>Un question sur un de nos services, besoin de plus de détails ?</p>
                 </div>
-                <NavLink className="btnContactezNous" to={"advice"}>
+                <Link className="btnContactezNous" exact to={"/advice"}>
                     <div className="buttonContactezNous">
                         <p>Contactez-nous!</p>
                     </div>
-                </NavLink>
+                </Link>
            </div>
            <div className='content'> </div>
         </div>

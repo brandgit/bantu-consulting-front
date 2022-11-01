@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     background-color: white;
+    /* padding-bottom: 100px; */
 
 }
 .descriptionServicePresentation{
@@ -15,21 +16,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: aquamarine; */
+    text-align: center;
 
 }
 .wrapperVideoServicePresentation{
     width: 90%;
-    height: 50%;
+    height: 68%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-evenly;
     align-items: center;
-    background-color: white;
+    /* background-color: red; */
 }
 .videoServicePresentationContainer{
-    width: 300px;
-    height: 200px;
+
+    width: 290px;
+    
 }
 .titleServicePresentation h1{
     font-size: 20px;
@@ -48,112 +50,52 @@
     height: 70%;
 }
 
-
-
-
-@media (min-width: 410px) {}
-
-@media (min-width: 610px) {
-    .wrapperTopNosServices {
-        height: 500px;
-    }
-
-    .textTopNosServices {
-        font-size: 0.9rem;
-    }
-
-    .vertorNosServices img {
-        width: 60%;
-    }
-
-    .titleTopNosServices {
-        height: 25%;
-        font-size: 1.2rem;
-        align-items: flex-end;
-        /* background-color: aqua; */
-    }
+.buttonServicePresentation p {
+    height: 35px;
+    width: 100px;
+    color: white;
+    display: flex;
+    font-size: 0.7rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgba(18, 17, 17, .8) 35%, rgba(52, 73, 194, .8) 69%);
+   
 }
 
-@media (min-width: 810px) {
 
-    .descriptionTopNosServices {
-        height: 80%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
 
-    .bioTopNosServices {
-        height: 80%;
-        width: 50%;
-    }
-
-    .bioTopNosServices p {
-        height: 60%;
-        width: 100%;
-    }
-
-    .buttonTopServices {
-        height: 40%;
-        width: 100%;
-    }
-
-    .buttonTopServices p {
-        height: 40px;
-        width: 120px;
-    }
-
-    .vertorNosServices {
-        height: 80%;
-        width: 40%;
-    }
-
-    .vertorNosServices img {
-        width: 90%;
-        height: 80%;
-    }
-
-    .textTopNosServices {
-        font-size: 1rem;
-    }
-
-    .titleTopNosServices {
-        height: 30%;
-        font-size: 1.7rem;
-        align-items: flex-end;
-        /* background-color: aqua; */
-    }
-
-    .descriptionTopNosServices {
-        height: 70%;
+@media (min-width: 390px) {
+    .videoServicePresentationContainer{
+        width: 335px;
     }
 }
-
-@media (min-width: 1010px) {
-
-    .wrapperTopNosServices {
-        height: 600px;
+@media (min-width: 400px) {
+    .videoServicePresentationContainer{
+        width: 370px;
     }
-
-    .vertorNosServices img {
-        width: 90%;
-        height: 80%;
-        border-radius: 15px;
+}
+@media (min-width: 500px) {
+    .videoServicePresentationContainer{
+        width: 430px;
     }
-
-    .textTopNosServices {
-        font-size: 1.5rem;
+}
+@media (min-width: 600px) {
+    .videoServicePresentationContainer{
+        width: 540px;
     }
-
-    .titleTopNosServices {
-        height: 30%;
-        font-size: 1.7rem;
-        align-items: flex-end;
-        /* background-color: aqua; */
+    .wrapperServicePresentation {
+        padding-bottom: 60px;
+    
     }
-
-    .descriptionTopNosServices {
-        height: 70%;
+    .wrapperVideoServicePresentation{
+        justify-content:space-between;
+        /* background-color: red; */
+    }
+}
+@media (min-width: 700px) {
+    .videoServicePresentationContainer{
+        width: 580px;
     }
 }
